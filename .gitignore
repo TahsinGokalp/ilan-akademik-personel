@@ -1,0 +1,51 @@
+# --- Cekilen veri (ilanlar) : repoya girmez, herkes kendi makinesinde cekip uretir ---
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+ilanlar.db
+
+# --- Disa aktarilan ciktilar (ilan icerikleri / sartlari) ---
+*.xlsx
+*.xls
+*.csv
+bolum_sartlari.*
+export/
+exports/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# --- Playwright / tarayici ---
+.playwright/
+playwright-report/
+test-results/
+trace.zip
+
+# --- Gizli bilgiler / yerel ayarlar (gerek olmasa da yanlislikla girmesin) ---
+.env
+.env.*
+*.key
+*.pem
+secrets*
+
+# --- Arac, editor, isletim sistemi dosyalari ---
+.claude/
+.impeccable/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Gecici dosyalar ---
+*.log
+*.tmp
+_*.py
